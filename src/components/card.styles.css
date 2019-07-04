@@ -1,0 +1,23 @@
+.card {
+  display: block;
+  margin: auto;
+  box-shadow: 0 0 20px 2px black;
+  background-color: white;
+  transition: 0.5s ease-in;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.art {
+  width: 300px;
+}
+
+.label {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  text-shadow: 0 0 5px firebrick, 0 0 10px yellow;
+  text-align: center;
+  padding: 10px;
+}

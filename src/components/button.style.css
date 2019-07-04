@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  width: 20%;
+  height: 35px;
+  justify-content: center;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+
+  border: solid rgb(71, 71, 67) 2px;
+  background-color: rgba(218, 133, 7, 0.89);
+  transition: ease-in 0.5s;
+}
+
+.button:hover {
+  filter: invert(100%);
+}
+
+.button:active {
+  transform: scale(1.05);
+}

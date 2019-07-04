@@ -1,0 +1,20 @@
+.search-box {
+  display: flex;
+  flex-basis: 50%;
+  height: 27px;
+  padding-left: 5px;
+
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  color: rgba(218, 133, 7, 0.89);
+}
+
+.search-box::placeholder {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .search-box {
+    font-size: 13px;
+  }
+}
