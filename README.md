@@ -43,4 +43,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ### `npm run deploy`
 
 Запускает скрипт `build` и деплоит проект в репозиторий на Github Pages.
+
 **Note: Для запуска команды `deploy` первоначально необхоимо настроить SSH доступ к текущему репозиторию [подробнее здесь](https://help.github.com/en/articles/connecting-to-github-with-ssh)**
